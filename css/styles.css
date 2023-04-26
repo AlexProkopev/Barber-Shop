@@ -1,0 +1,67 @@
+/* Осеновной цвет заголовков #303030 */
+
+/* Основной цвет параграфов #555555 */
+
+/* Цвет ховера #FF6C00 */
+
+/* Цвет ссылок в навигации #FFFFFF */
+
+/* Вторичный цвет заголовков #FFFFFF */
+
+/* Вторичный цвет параграфов #9DA4BD */
+
+:root {
+    --primary-color-title: #303030;
+    --primary-color-paragrav: #555555;
+    --color-hover: #FF6C00;
+    --color-link-nav: #FFFFFF;
+    --color-second-title: #FFFFFF;
+    --color-second-paragrav: #9DA4BD;
+}
+
+body {
+    color: var(--primary-color-paragrav);
+}
+
+/* Style for logo */
+ 
+.logo {
+    display: flex;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.05em;
+    color: #303030;
+}
+
+/* Style for list all */
+
+.list {
+    list-style: none;
+}
+
+/* Style for link all */
+
+.link {
+    text-decoration: none;
+}
+
+/* Style for navigation */
+
+.pagination .pagination-link {
+    
+    color: var(--color-link-nav);
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.1em;
+    line-height: 1.4;
+    background-color: black;
+}
+
+/* Style navigation to hover */
+
+.pagination .pagination-link:hover,
+.pagination .pagination-link:focus {
+    color: var(--color-hover);
+}
+
